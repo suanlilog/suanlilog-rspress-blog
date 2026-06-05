@@ -1,0 +1,5 @@
+[
+  "C盘清理",
+  { "type": "dir", "name": "AI Coding工具", "label": "AI Coding工具", "collapsible": true, "collapsed": false },
+  { "type": "dir", "name": "打造个人品牌", "label": "打造个人品牌", "collapsible": true, "collapsed": false }
+]
