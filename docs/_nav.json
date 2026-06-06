@@ -1,0 +1,7 @@
+[
+  { "text": "首页", "link": "/" },
+  { "text": "Agent", "link": "/Agent/" },
+  { "text": "Python教程", "link": "/Python教程/" },
+  { "text": "工具教程", "link": "/工具教程/" },
+  { "text": "生活", "link": "/生活/" }
+]
