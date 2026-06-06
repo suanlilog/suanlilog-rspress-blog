@@ -1,7 +1,18 @@
 :root {
-  --rp-c-brand: #3f51b5;
-  --rp-c-brand-light: #5c6bc0;
-  --rp-c-brand-dark: #303f9f;
+  --rp-c-brand: #c27a3a;
+  --rp-c-brand-light: #d4944f;
+  --rp-c-brand-dark: #a56427;
+  --rp-c-bg: #fdf6e3;
+  --rp-c-bg-soft: #f5edd8;
+  --rp-c-bg-mute: #ece3cb;
+  --rp-c-text: #1a1a1a;
+}
+
+:root.rp-dark {
+  --rp-c-bg: #2a2520;
+  --rp-c-bg-soft: #332e28;
+  --rp-c-bg-mute: #3d3730;
+  --rp-c-text: #e8e0d4;
 }
 
 /* Smooth page transitions */
@@ -26,9 +37,21 @@
   font-size: 0.85em;
 }
 
+/* 左上角站点标题颜色 */
+.rp-nav__title__link {
+  color: #a56427;
+}
+
 /* Content area max-width for readability */
 .rp-container {
   max-width: 1400px;
+}
+
+/* 首页背景色 */
+:root {
+  --rp-home-hero-secondary-color: #c27a3a;
+  --rp-home-background-bg: linear-gradient(180deg, #f8ecd2 0%, #f8ecd2 40%, #f5e8d0 70%, #fff 100%);
+  --rp-home-feature-bg: #f5e4c6;
 }
 
 /* Footer */

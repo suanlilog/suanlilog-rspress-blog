@@ -2,8 +2,8 @@
 pageType: home
 hero:
   name: 算栗工坊
-  text: 大模型是工作，算栗是生活。
-  tagline: 我是 Zihan，持续关注并分享关于 LLM、Python 开发及算法等方向的思考与实践。
+  text: 每个知识点，都值得举个栗子。
+  tagline: 一个喜欢举栗子的开发者。
   image:
     src: /chestnut.png
     alt: 算栗工坊
