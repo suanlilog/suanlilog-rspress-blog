@@ -1,7 +1,3 @@
----
-date: 2026-05-03
----
-
 # Claude Code + CC Switch
 
 ## Win

@@ -1,7 +1,3 @@
----
-date: 2026-04-09
----
-
 # 基于claude code源码重构的python代码及其rust运行版
 
 ## 前言

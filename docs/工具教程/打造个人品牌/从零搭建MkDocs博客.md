@@ -1,7 +1,3 @@
----
-date: 2026-05-22
----
-
 # 从零搭建MkDocs博客
 
 之前用过 Hexo + Fluid 主题写博客，也试过 VitePress，但总感觉不太满意。Hexo 的 Node.js 生态太重，VitePress 更适合写文档而不是博客。最终选择了 **MkDocs + Material for MkDocs**，搭建过程记录如下。

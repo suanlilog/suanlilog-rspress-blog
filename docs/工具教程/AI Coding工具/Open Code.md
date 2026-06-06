@@ -1,7 +1,3 @@
----
-date: 2026-04-24
----
-
 # Open Code
 
 ## 安装opencode
