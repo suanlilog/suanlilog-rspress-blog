@@ -1,5 +1,5 @@
 [
-  { "text": "首页", "link": "/" },
+  { "text": "首页", "link": "/", "activeMatch": "^/$" },
   { "text": "Agent", "link": "/Agent/" },
   { "text": "Python教程", "link": "/Python教程/" },
   { "text": "工具教程", "link": "/工具教程/" },
