@@ -1,29 +1,45 @@
-# Rspress website
+# 我的 Rspress 博客 (Rspress Website)
+本项目使用 Rspress 搭建，并已接入 Vercel 进行自动化持续部署 (CI/CD)。
 
-## Setup
+## 📦 初始化准备 (仅首次需要)
+将项目拉取到本地后，首先安装所需依赖包：
 
-Install the dependencies:
-
-```bash
+```Bash
 npm install
 ```
+## 💻 写作与本地开发 (日常必用)
+启动本地实时预览服务器。你可以一边修改配置或撰写文章，一边在浏览器（通常是 http://localhost:5173）中实时查看效果。每次保存文件，页面都会瞬间自动刷新。
 
-## Get started
-
-Start the dev server:
-
-```bash
+```Bash
 npm run dev
 ```
+💡 工作流提示：
+只要保持这个命令运行，你就可以安心在本地“打草稿”。等你对所有修改都满意了，再 Ctrl + C 关闭它，然后通过 Git 提交代码。
 
-Build the website for production:
+## 🚀 线上发布 (全自动)
+由于项目绑定了 Vercel，你不需要在本地执行任何发布命令。
 
-```bash
+只需将修改后的代码推送到代码仓库：
+
+```Bash
+git add .
+git commit -m "更新文章/修改配置"
+git push
+```
+Vercel 会自动监听到代码的变动，在云端拉取代码、执行构建，并为你更新线上博客。
+
+## 🔧 备用命令 (仅限排错时使用)
+Vercel 在云端其实就是在悄悄替你执行 build。通常情况下你不需要在本地运行以下命令。只有当 Vercel 部署失败，或者你想在本地排查打包错误时，才需要用到它们：
+
+1. 模拟云端打包：
+将网站编译成最终的静态文件。可以用来测试本地代码能否成功构建：
+
+```Bash
 npm run build
 ```
+2. 本地预览打包产物：
+预览上述 build 命令生成的最终页面（类似于 Vercel 自动为你生成的云端 Preview 链接）：
 
-Preview the production build locally:
-
-```bash
+```Bash
 npm run preview
 ```
