@@ -2,7 +2,7 @@
 pageType: home
 hero:
   name: 算栗工坊
-  text: 每个知识点，都值得举个栗子。
+  text: 从实例到类
   tagline: 一个喜欢举栗子的开发者。
   image:
     src: /chestnut.png
