@@ -4,7 +4,7 @@ import { defineConfig } from '@rspress/core';
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: '算栗工坊',
-  description: '从实例到类 | From Instance to Class',
+  description: '从实例到类',
   icon: '/chestnut.png',
   base: '/',
   themeConfig: {
